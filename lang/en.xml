@@ -43,12 +43,12 @@
     <animatedBackground>Background animations</animatedBackground>
     <animatedCovers>Random boxes</animatedCovers>
     <!-- change default for small screens -->
-    <systembackground.consoles>Video games</systembackground.consoles>
-    <systembackground.miniconsoles>Mini video games</systembackground.miniconsoles>
+    <systembackground.consoles>Console</systembackground.consoles>
+    <systembackground.miniconsoles>Mini consoles</systembackground.miniconsoles>
     <systembackground.carboncontrollers>Carbon controls</systembackground.carboncontrollers>
     <systembackground.carbonlegacy>Legacy</systembackground.carbonlegacy>
     <systembackground.simple>Simple</systembackground.simple>
-    <systembackground.randomvideo>Random video</systembackground.randomvideo>
+    <systembackground.randomvideo>Animation</systembackground.randomvideo>
     <systembackground.randomfanart>Random fanart</systembackground.randomfanart>
     <systembackground.randomimage>Random image</systembackground.randomimage>
     <systembackground.randombox>Random game box</systembackground.randombox>
