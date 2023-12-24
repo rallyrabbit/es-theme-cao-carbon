@@ -7,7 +7,7 @@ originally based on: "Carbon" by Eric Hettervik (Rookervik)
 originally based on: "simple" by nils bonenberger
 languages and missing systems (batocera v36): by maioni
 -->
-<theme defaultView="Icons">
+<theme defaultView="Grid">
   <formatVersion>7</formatVersion>
   <variables>
     <!-- Example evaluated variables, usable in if="" conditions -->
@@ -122,16 +122,18 @@ languages and missing systems (batocera v36): by maioni
     <!-- change default for small screens -->
     <include name="consoles" displayName="${systembackground.consoles}">./subsets/systembackground/batomachines.xml</include>
     <include name="mini-consoles" displayName="${systembackground.miniconsoles}">./subsets/systembackground/consoles.xml</include> <!-- tinyScreen="true" -->
-    <include name="carbon controllers" displayName="${systembackground.carboncontrollers}">./subsets/systembackground/animatedbackgroundsubset.xml</include>
-    <include name="carbon legacy" displayName="${systembackground.carbonlegacy}">./subsets/systembackground/carbon.xml</include>
     <include name="simple" displayName="${systembackground.simple}">./subsets/systembackground/simple.xml</include>
     <include name="random video" displayName="${systembackground.randomvideo}">./subsets/systembackground/video.xml</include>
+<!--
+    <include name="carbon controllers" displayName="${systembackground.carboncontrollers}">./subsets/systembackground/animatedbackgroundsubset.xml</include>
+    <include name="carbon legacy" displayName="${systembackground.carbonlegacy}">./subsets/systembackground/carbon.xml</include>
     <include name="random fanart" displayName="${systembackground.randomfanart}">./subsets/systembackground/fanart.xml</include>
     <include name="random image" displayName="${systembackground.randomimage}">./subsets/systembackground/image.xml</include>
     <include name="random box" displayName="${systembackground.randombox}">./subsets/systembackground/box.xml</include>
     <include name="mini random image" displayName="${systembackground.minirandomimage}">./subsets/systembackground/smallscreen.xml</include>
     <include name="mini random box" displayName="${systembackground.minirandombox}">./subsets/systembackground/smallbox.xml</include>
     <include name="mini random video" displayName="${systembackground.minirandomvideo}">./subsets/systembackground/smallvideo.xml</include>
+-->
   </subset>
   <!-- Fix for controller image size -->
   <include subset="systemview" name="simple" displayName="${systemview.simple}">./subsets/systemview/controllersizefix.xml</include>
@@ -150,7 +152,7 @@ languages and missing systems (batocera v36): by maioni
   <include>./views/boxes.xml</include>
   <include>./views/carousel.xml</include>
   <include>./views/tiles.xml</include>
-  <include>./views/icons.xml</include>  
+  <include>./views/icons.xml</include>
   
   <!-- Subset option for blur effects -->
   <subset name="blurfx" displayName="${subset.blurfx}" ifArch="windows,x86_64" tinyScreen="false">

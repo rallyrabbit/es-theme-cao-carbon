@@ -29,7 +29,7 @@ originally based on: "simple" by nils bonenberger
       <alignment>left</alignment>
       <horizontalMargin>0.00</horizontalMargin>
       <fontPath>./../art/fonts/Cabin-Regular.ttf</fontPath>
-      <fontSize>0.028</fontSize>
+      <fontSize>0.03</fontSize>
       <scrollSound>./../art/sounds/scroll.wav</scrollSound>
       <scrollbarColor>96969620</scrollbarColor>
       <scrollbarCorner>0.49</scrollbarCorner>

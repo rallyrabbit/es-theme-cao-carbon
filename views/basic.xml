@@ -90,7 +90,7 @@ originally based on: "simple" by nils bonenberger
               <fontPath>./../art/fonts/Cabin-Regular.ttf</fontPath>
               <multiLine>false</multiLine>
               <autoScrollDelay>250</autoScrollDelay>
-              <fontSize>0.026</fontSize>
+              <fontSize>0.03</fontSize>
               <color>C0C0C0</color>
               <storyboard event="activate">
                 <animation property="color" to="FFFFFFFF"/>
