@@ -7,7 +7,7 @@ originally based on: "Carbon" by Eric Hettervik (Rookervik)
 originally based on: "simple" by nils bonenberger
 languages and missing systems (batocera v36): by maioni
 -->
-<theme defaultView="Grid">
+<theme defaultView="grid">
   <formatVersion>7</formatVersion>
   <variables>
     <!-- Example evaluated variables, usable in if="" conditions -->
